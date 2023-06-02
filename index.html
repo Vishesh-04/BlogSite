@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>BLOG CARD GENERATOR</h1>
+    
+    <div class="form-group">
+        <label for="image">Image URL:</label>
+        <input type="text" id="image" placeholder="Enter the image URL">
+    </div>
+    
+    <div class="form-group">
+        <label for="name">Image Name:</label>
+        <input type="text" id="name" placeholder="Enter the image name">
+    </div>
+    
+    <div class="form-group">
+        <label for="description">Image Description:</label>
+        <input type="text" id="description" placeholder="Enter the image description">
+    </div>
+    
+    <button onclick="generateBlogCard()">Generate Blog Card</button>
+    
+    <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+    </html>
